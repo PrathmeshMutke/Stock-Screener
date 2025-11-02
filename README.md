@@ -1,118 +1,296 @@
 <div align="center">
-  <br />
-  <h3 align="center">Stock Market App — Alerts, Charts, AI Insights</h3>
-  <br />
+
+# 📈 Stock Screener
+
+### AI-Powered Stock Market Analytics Platform
+
+[![Next.js](https://img.shields.io/badge/Next.js-15.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19.1-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-6.19-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
+
+**Real-time stock tracking • Smart alerts • AI insights • Beautiful UI**
+
+[🚀 Live Demo](#) • [📖 Documentation](#features) • [🐛 Report Bug](https://github.com/PrathmeshMutke/Stock-Screener/issues) • [💡 Request Feature](https://github.com/PrathmeshMutke/Stock-Screener/issues)
+
 </div>
 
-## 📋 Table of Contents
+---
 
-1. ✨ [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
+## ✨ Overview
 
-## <a name="introduction">✨ Introduction</a>
+**Stock Screener** is a modern, AI-powered stock market analytics platform that helps investors make informed decisions. Built with cutting-edge technologies, it provides real-time market data, personalized alerts, comprehensive company insights, and AI-driven analysis.
 
-AI-powered modern stock market app built with Next.js, Shadcn, Better Auth, and Inngest! Track real-time prices, set personalized alerts, explore company insights, and manage watchlists. The admin dashboard allows managing stocks, publishing news, and monitoring user activity, while event-driven workflows power automated alerts, AI-driven daily digests, earnings notifications, and sentiment analysis—perfect for devs who want a dynamic, real-time financial platform.
+### 🎯 Key Highlights
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+- ⚡ **Real-time Data** - Live stock prices and market updates
+- 🤖 **AI-Powered** - Intelligent insights and automated summaries
+- 📊 **Interactive Charts** - TradingView integration for advanced visualization
+- 🔔 **Smart Alerts** - Customizable price and volume notifications
+- 📱 **Responsive Design** - Beautiful UI that works on all devices
+- 🔐 **Secure Auth** - Modern authentication with Better Auth
+- ⚙️ **Event-Driven** - Automated workflows with Inngest
 
-- **[Better Auth](https://www.better-auth.com/)** is a framework-agnostic authentication and authorization library for TypeScript. It provides built-in support for email/password login, social sign-on (Google, GitHub, Apple, and more), and multi-factor authentication, simplifying user authentication and account management.
+---
 
-- **[Finnhub](https://finnhub.io/)** is a real-time financial data API that provides stock, forex, and cryptocurrency market data. It offers developers access to fundamental data, economic indicators, and news, making it useful for building trading apps, dashboards, and financial analysis tools.
+## 🖼️ Screenshots
 
-- **[Inngest](https://www.inngest.com/)** is a platform for event-driven workflows and background jobs. It allows developers to build reliable, scalable automated processes such as real-time alerts, notifications, and AI-powered workflows.
+<div align="center">
 
-- **[MongoDB](https://www.mongodb.com/)** is a flexible, high-performance NoSQL database. It stores data in JSON-like documents, supports dynamic schemas, and provides robust features for scalability, replication, and querying.
+### Dashboard Preview
+![Dashboard](public/assets/images/dashboard-preview.png)
 
-- **[Nodemailer](https://nodemailer.com/)** is a Node.js library for sending emails easily. It supports various transport methods such as SMTP, OAuth2, and third-party services, making it a reliable tool for handling transactional emails, notifications, and contact forms in applications.
+*Interactive dashboard with real-time stock data and charts*
 
-- **[Next.js](https://nextjs.org/docs)** is a powerful React framework for building full-stack web applications. It provides server-side rendering, static site generation, and API routes, allowing developers to create optimized and scalable apps quickly.
+</div>
 
-- **[Shadcn](https://ui.shadcn.com/docs)** is an open-source library of fully customizable, accessible React components. It helps teams rapidly build consistent, visually appealing UIs while allowing full control over design and layout.
+---
 
-- **[TailwindCSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to build custom, responsive designs quickly without leaving their HTML. It provides pre-defined classes for layout, typography, colors, and more.
+## 🚀 Features
 
-- **[TypeScript](https://www.typescriptlang.org/)** is a statically typed superset of JavaScript that improves code quality, tooling, and error detection. It is ideal for building large-scale applications and enhances maintainability.
+### 📊 Stock Dashboard
+- **Real-time Price Tracking** - Live updates for stocks, indices, and crypto
+- **Interactive Charts** - Line charts and candlesticks with TradingView widgets
+- **Historical Data** - View price trends over different time periods
+- **Smart Filtering** - Filter by industry, performance, market cap, and more
 
-## <a name="features">🔋 Features</a>
+### 🔔 Watchlist & Alerts
+- **Personalized Watchlist** - Track your favorite stocks in one place
+- **Custom Alerts** - Set price thresholds, volume spikes, and trend changes
+- **Email Notifications** - Instant alerts delivered to your inbox
+- **Alert Management** - Easy CRUD operations for all your alerts
 
-👉 **Stock Dashboard**: Track real-time stock prices with interactive line and candlestick charts, including historical data, and filter stocks by industry, performance, or market cap.
+### 💡 Company Insights
+- **Financial Metrics** - PE ratio, EPS, revenue, market cap, and more
+- **Recent News** - Latest company news and market announcements
+- **Analyst Ratings** - Professional analyst recommendations
+- **Sentiment Analysis** - AI-powered sentiment scores
+- **Filings & Reports** - SEC filings and earnings reports
 
-👉 **Watchlist & Alerts**: Create a personalized watchlist, set alert thresholds for price changes or volume spikes, and receive instant email notifications to stay on top of the market.
+### 🤖 AI-Powered Features
+- **Daily Market Summaries** - Automated AI-generated market digests
+- **Earnings Notifications** - Get notified about upcoming earnings
+- **Personalized Insights** - AI-driven recommendations based on your watchlist
+- **Trend Analysis** - Smart pattern recognition and predictions
 
-👉 **Company Insights**: Explore detailed financial data such as PE ratio, EPS, revenue, recent news, filings, analyst ratings, and sentiment scores for informed decision-making.
+### ⚙️ Advanced Workflows
+- **Event-Driven Architecture** - Powered by Inngest for reliable automation
+- **Background Jobs** - Automated price checks and alert processing
+- **Scalable Infrastructure** - Built for high performance and reliability
 
-👉 **Admin Dashboard**: Manage listed companies, update company profiles, publish market news and announcements, and monitor user activity and engagement efficiently.
+---
 
-👉 **Real-Time Workflows**: Powered by **Inngest**, automate event-driven processes like price updates, alert scheduling, automated reporting, and AI-driven insights.
+## 🛠️ Tech Stack
 
-👉 **AI-Powered Alerts & Summaries**: Generate personalized market summaries, daily digests, and earnings report notifications, helping users track performance and make data-driven decisions.
+### Frontend
+- **[Next.js 15.5](https://nextjs.org/)** - React framework with App Router
+- **[React 19.1](https://reactjs.org/)** - Latest React features and hooks
+- **[TypeScript 5](https://www.typescriptlang.org/)** - Type-safe development
+- **[Tailwind CSS 4](https://tailwindcss.com/)** - Utility-first styling
+- **[Shadcn UI](https://ui.shadcn.com/)** - Beautiful, accessible components
 
-👉 **Customizable Notifications**: Fine-tune alerts and notifications based on user watchlists and preferences for a highly personalized experience.
+### Backend & Services
+- **[Better Auth](https://www.better-auth.com/)** - Modern authentication system
+- **[MongoDB](https://www.mongodb.com/)** - NoSQL database for flexible data storage
+- **[Inngest](https://www.inngest.com/)** - Event-driven workflows and background jobs
+- **[Finnhub API](https://finnhub.io/)** - Real-time financial market data
+- **[Google Gemini](https://ai.google.dev/)** - AI-powered insights and summaries
 
-👉 **Analytics & Insights**: Gain insights into user behavior, stock trends, and engagement metrics, enabling smarter business and trading decisions.
+### Additional Tools
+- **[Nodemailer](https://nodemailer.com/)** - Email notifications
+- **[TradingView Widgets](https://www.tradingview.com/widget/)** - Advanced charting
+- **[React Hook Form](https://react-hook-form.com/)** - Form management
+- **[Lucide Icons](https://lucide.dev/)** - Beautiful icon library
 
-## <a name="quick-start">🤸 Quick Start</a>
+---
 
-Follow these steps to set up the project locally on your machine.
+## 📦 Installation
 
-**Prerequisites**
+### Prerequisites
 
-Make sure you have the following installed on your machine:
+Make sure you have the following installed:
 
+- [Node.js](https://nodejs.org/) (v20 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+### Step 1: Clone the Repository
 
 ```bash
-git clone [git remote URL]
+git clone https://github.com/PrathmeshMutke/Stock-Screener.git
+cd Stock-Screener
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
+### Step 2: Install Dependencies
 
 ```bash
 npm install
 ```
 
-**Set Up Environment Variables**
+### Step 3: Set Up Environment Variables
 
-Create a new file named `.env` in the root of your project and add the following content:
+Create a `.env` file in the root directory:
 
 ```env
-NODE_ENV='development'
+# Application
+NODE_ENV=development
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
-# FINNHUB
-NEXT_PUBLIC_NEXT_PUBLIC_FINNHUB_API_KEY=
+# Finnhub API
+NEXT_PUBLIC_NEXT_PUBLIC_FINNHUB_API_KEY=your_finnhub_api_key
 FINNHUB_BASE_URL=https://finnhub.io/api/v1
 
-# MONGODB
-MONGODB_URI=
+# MongoDB
+MONGODB_URI=your_mongodb_connection_string
 
-# BETTER AUTH
-BETTER_AUTH_SECRET=
+# Better Auth
+BETTER_AUTH_SECRET=your_random_secret_key_min_32_characters
 BETTER_AUTH_URL=http://localhost:3000
 
-# GEMINI
-GEMINI_API_KEY=
+# Google Gemini AI
+GEMINI_API_KEY=your_gemini_api_key
 
-#NODEMAILER
-NODEMAILER_EMAIL=
-NODEMAILER_PASSWORD=
+# Nodemailer (Email Notifications)
+NODEMAILER_EMAIL=your_email@gmail.com
+NODEMAILER_PASSWORD=your_app_password
 ```
 
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**MongoDB**](https://www.mongodb.com/products/platform/atlas-database), [**Gemini**](https://aistudio.google.com/prompts/new_chat?utm_source=chatgpt.com), [**Inngest**](https://www.inngest.com/), [**Finnhub**](https://finnhub.io).
+### Step 4: Get API Keys
 
-**Running the Project**
+You'll need to sign up for the following services:
+
+- **[Finnhub](https://finnhub.io/)** - Free tier available for stock market data
+- **[MongoDB Atlas](https://www.mongodb.com/cloud/atlas)** - Free tier available for database
+- **[Google Gemini](https://ai.google.dev/)** - Free API key for AI features
+- **[Inngest](https://www.inngest.com/)** - Free tier for background jobs
+- **Gmail App Password** - For email notifications (enable 2FA first)
+
+### Step 5: Run the Development Server
 
 ```bash
+# Start Next.js development server
 npm run dev
+
+# In a separate terminal, start Inngest dev server
 npx inngest-cli@latest dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+---
+
+## 📚 Project Structure
+
+```
+Stock-Screener/
+├── app/                    # Next.js App Router pages
+│   ├── (auth)/            # Authentication routes
+│   ├── (root)/            # Main application routes
+│   └── api/               # API endpoints
+├── components/            # React components
+│   ├── ui/               # Shadcn UI components
+│   └── forms/            # Form components
+├── database/             # MongoDB models and connection
+├── hooks/                # Custom React hooks
+├── lib/                  # Utility functions and configurations
+│   ├── actions/         # Server actions
+│   ├── better-auth/     # Auth configuration
+│   ├── inngest/         # Background job functions
+│   └── nodemailer/      # Email templates
+├── public/              # Static assets
+└── types/               # TypeScript type definitions
+```
+
+---
+
+## 🎨 Features in Detail
+
+### 🔐 Authentication
+- Secure email/password authentication
+- Session management
+- Protected routes
+- User profile management
+
+### 📈 Stock Search & Discovery
+- Search stocks by symbol or company name
+- Popular stocks showcase
+- Real-time price updates
+- Detailed stock information pages
+
+### 📊 Watchlist Management
+- Add/remove stocks from watchlist
+- View all watched stocks
+- Quick access to stock details
+- Real-time price updates
+
+### 🔔 Alert System
+- Price threshold alerts
+- Volume spike notifications
+- Custom alert conditions
+- Email notification delivery
+
+### 📰 Market News & Insights
+- Latest company news
+- Market announcements
+- Earnings reports
+- AI-generated summaries
+
+---
+
+## 🚢 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import your repository in [Vercel](https://vercel.com/new)
+3. Add all environment variables
+4. Deploy!
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+**Prathmesh Mutke**
+
+- GitHub: [@PrathmeshMutke](https://github.com/PrathmeshMutke)
+- Email: pmutke03@gmail.com
+
+---
+
+## 🙏 Acknowledgments
+
+- [Finnhub](https://finnhub.io/) for providing excellent market data APIs
+- [TradingView](https://www.tradingview.com/) for charting widgets
+- [Shadcn](https://ui.shadcn.com/) for beautiful UI components
+- All the amazing open-source libraries that made this possible
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if you find it helpful!**
+
+Made with ❤️ by [Prathmesh Mutke](https://github.com/PrathmeshMutke)
+
+</div>
