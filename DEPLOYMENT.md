@@ -3,7 +3,7 @@
 ## GitHub Setup ✅
 
 Your code has been successfully pushed to GitHub!
-- Repository: https://github.com/PrathmeshMutke/TradeView
+- Repository: https://github.com/PrathmeshMutke/Stock-Screener
 - Branch: main
 
 ## Vercel Deployment
